@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <h1>Hello User: {{id}}</h1>
+    <p>The author of your book is {{article.author}}</p>
+    <h2></h2>
+    <h2>Title: {{article.title}}</h2>
+    <p>{{article.body}}</p>
+    <h4>Author:</h4><p>{{article.author}}, {{article.create_date}}</p>
+{% endblock %}
